@@ -1,7 +1,12 @@
-Project Ideas
+------------------------------------------------------------------------
+This is the project README file. Here, you should describe your project.
+Tell the reader (someone who does not know anything about this project)
+all he/she needs to know. The comments should usually include at least:
+------------------------------------------------------------------------
 
-1.card game, something like black jack or some other card game.
-
-2.I was thinking of making a game similar to Pac-Man 
-
-3. maybe a game like Tetris
+PROJECT TITLE:
+PURPOSE OF PROJECT:
+VERSION or DATE:
+HOW TO START THIS PROJECT:
+AUTHORS:
+USER INSTRUCTIONS:
