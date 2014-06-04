@@ -16,25 +16,53 @@ public class Card implements Comparable<Card> {
     public int rank;
      public int rand1=1;
      public int rand2=1;
-    
+     public int usersValue = 0;
+     public int usersCards = 0;
+        private final int ACE = 1;
+	    private final int KING = 13;
+	    private final int QUEEN = 12;
+	    private final int JACK = 11;
+	    private final int TEN = 10;
+	    private final int NINE = 9;
+	    private final int EIGHT = 8;
+	    private final int SEVEN = 7;
+	    private final int SIX = 6;
+	    private final int FIVE = 5;
+	    private final int FOUR = 4;
+	    private final int THREE = 3;
+	    private final int TWO = 2;
+	    private final int HEARTS=0;
+	    private final int DIAMONDS=0;
+	    private final int CLUBS=0;
+	    private final int SPADES=0;
+	    
+	 
+
+   
     private static final String[] suits = { "Clubs", "Diamonds", "Hearts", "Spades" };
-    private static final String[] ranks = { "narf", "Ace", "2", "3", "4", "5", "6",
+    public static final String[] ranks = { "narf", "Ace", "2", "3", "4", "5", "6",
                    "7", "8", "9", "10", "Jack", "Queen", "King" };
-    // Random
+    
+    //random
     Random random = new Random();
 //         public Double pickCard(){
 //            rand1 = random.nextInt(13)+1;
 //            rand2 = random.nextInt(4)+1;
 //            
 //             return rand1;
-//         }
+//            }
+    
+        
+    
+
     /**
      * No-argument constructor.
      */
     public Card() { 
         this(0,0);
     }
-
+    
+    
     /**
      * Constructor with arguments.
      */
@@ -49,6 +77,7 @@ public class Card implements Comparable<Card> {
     @Override
     public String toString() {
       return ranks[rank] + " of " + suits[suit];
+      
     }
     
     /**

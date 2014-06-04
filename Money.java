@@ -7,19 +7,21 @@
  */
 public class Money 
 {
-    int money = 500;
+    int mymoney = 500;
     public double toString(int money,int card1,int card2, int dealercard, int  dealercard2)
     {
         
         if (card1 + card2<= dealercard + dealercard2)
         {
-            money = money-100;
-            System.out.println("you lost $"+money);
+            mymoney = mymoney-100;
+            System.out.println("you lost $"+ mymoney);
         }
-        else {
-            money = money+100;
-            System.out.println("You won $"+money); 
+        else if (card1 + card2>= dealercard + dealercard2) {
+            mymoney = mymoney+100;
+            System.out.println("You lost $"+ mymoney); 
         }
-        return money;
+        else{
+            System.out.println("IDK");}
+        return mymoney;
     }
 }
