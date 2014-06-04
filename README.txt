@@ -11,6 +11,8 @@ HOW TO START THIS PROJECT:
 AUTHORS:
 USER INSTRUCTIONS:
 The Game that I am trying to develop is a Back Jack game.
+JOse Damian
+
 I think I am having Three Class that are going to be call
 Black Jack, Cards and Money. I know that we already did an
 black jack game in class. The Black Jack class is going to
